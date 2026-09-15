@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+}
+
+#book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.book-card {
+    background-color: green;
+    color: red;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.book-card h2 {
+    text-align: center;
+}
+
+.book-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: red;
+    font-size: 1.25rem;
+}
+
+.like-button {
+    background: none;
+    border: 2px solid blue;
+    color: red;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.comment-list {
+    list-style: none;
+}
+
+.comment-list li {
+    margin-bottom: 8px;
+}
+
+.comment-input {
+    width: 70%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+.comment-button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+}
+
+.comment-button:hover {
+    background-color: black;
+}
