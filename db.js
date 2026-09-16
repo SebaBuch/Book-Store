@@ -3,6 +3,7 @@ let books = [
 
         id: 1,
         title: "Die Geheimnisse des Ozeans",
+        image: "assets/img/books.jpg",
         author: "Clara Meer",
         year: 2018,
         genre: "Fantasy",
@@ -18,6 +19,7 @@ let books = [
     {
         id: 2,
         title: "Der vergessene Pfad",
+        image: "assets/img/books.jpg",
         author: "Max Wald",
         year: 2020,
         genre: "Abenteuer",
