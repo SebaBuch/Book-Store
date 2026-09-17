@@ -24,16 +24,16 @@ function createBookCard(book, index) {
 function addCardEventListeners(card) {
     const likeButton = card.querySelector(".like-button");
     likeButton.addEventListener("click", function () {
-        handleLikeClick(likeButton);
+        likeClick(likeButton);
     });
 
     const commentButton = card.querySelector(".comment-button");
     commentButton.addEventListener("click", function () {
-        handleCommentClick(commentButton);
+        commentClick(commentButton);
     });
 }
 
-function handleLikeClick(likeButton) {
+function likeClick(likeButton) {
     const clickedCard = likeButton.closest(".book-card");
     const clickedBook = books[clickedCard.dataset.index];
     const likeCount = likeButton.querySelector(".like-count");
@@ -49,7 +49,7 @@ function handleLikeClick(likeButton) {
     likeCount.textContent = clickedBook.likes;
 }
 
-function handleCommentClick(commentButton) {
+function commentClick(commentButton) {
     const clickedCard = commentButton.closest(".book-card");
     const clickedBook = books[clickedCard.dataset.index];
     const input = clickedCard.querySelector(".comment-input");

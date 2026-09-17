@@ -26,4 +26,23 @@ let books = [
         price: 15.99,
         likes: 830,
         comments: []
-    }]
+    },
+
+{
+        id: 3,
+        title: "Das Rätsel der Zeit",
+        image: "assets/img/books.jpg",
+        author: "Alexander Weiss",
+        year: 2020,
+        genre: "Science-Fiction",
+        price: 18.00,
+        likes: 750,
+        comments: []
+    }
+
+
+
+
+
+
+]

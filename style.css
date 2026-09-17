@@ -159,3 +159,9 @@ h1 {
     border-top: 1px solid #c9bba5;
     margin: 16px 0;
 }
+
+@media screen and (max-width: 378px) {
+    .comment-input{
+        width: 90%;
+    }
+}
