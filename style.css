@@ -153,3 +153,9 @@ h1 {
 .comment-button:hover {
     background-color: #244027;
 }
+
+.card-divider {
+    border: none;
+    border-top: 1px solid #c9bba5;
+    margin: 16px 0;
+}
